@@ -1,0 +1,12 @@
+.jpa {
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
+  .jpa input {
+    margin-right: .5rem;
+    margin-left: .5rem;
+    text-align: center; }
+    .jpa input:first-child {
+      margin-left: 0; }
+    .jpa input:last-child {
+      margin-right: 0; }
