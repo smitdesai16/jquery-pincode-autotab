@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery Pincode Autotab</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/jquery-pincode-autotab.min.css">
+</head>
+<body>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-12">
+				<input type="text" id="start" class="form-control" placeholder="start">
+			</div>
+		</div>
+	</div>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-12 jpa">
+				<input type="tel" class="form-control" maxlength="1">
+				<input type="tel" class="form-control" maxlength="1">
+				<input type="tel" class="form-control" maxlength="1">
+				<input type="tel" class="form-control" maxlength="1">
+				<input type="tel" class="form-control" maxlength="1">
+				<input type="tel" class="form-control" maxlength="1">
+			</div>
+		</div>
+	</div>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-12">
+				<input type="text" id="end" class="form-control" placeholder="end">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="dist/js/jquery-pincode-autotab.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $(".jpa input").jqueryPincodeAutotab();
+		});
+	</script>
+</body>
+</html>
