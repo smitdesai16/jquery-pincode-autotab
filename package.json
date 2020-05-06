@@ -1,6 +1,6 @@
 {
   "name": "jquery-pincode-autotab",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "You can checkout demo at following path\\r <br>\\r https://smitdesai16.github.io/jquery-pincode-autotab/",
   "main": "gulpfile.js",
   "scripts": {
@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/smitdesai16/jquery-pincode-autotab#readme",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.1",
     "jquery-ui-npm": "^1.12.0"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2"
   }
 }
