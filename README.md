@@ -11,3 +11,5 @@ Use following command to import using npm
 <br>
 
 <b>npm i jquery-pincode-autotab</b>
+
+https://www.npmjs.com/package/jquery-pincode-autotab
