@@ -2,7 +2,7 @@
 
 You can checkout demo at following path
 <br>
-https://smitdesai16.github.io/jquery-pincode-autotab/
+https://smitdesai16.github.io/jquery-pincode-autotab/index.html
 
 <p>This plugin allow you to create pincode style input box.</p>
 <p>Code is targeted to work with all devices. (android, ios, windows, mac...)</p>
